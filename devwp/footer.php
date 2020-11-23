@@ -1,13 +1,13 @@
 <?php
 /**
- * The template for displaying the footer of the Yestau Theme
+ * The template for displaying the footer of the Bearden Theme
  *
  * Contains the opening of the footer of all pages and all subsequent content.
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Bearden
  * @since 1.0.0
  */
 
@@ -18,18 +18,24 @@
 
 
 <!-- FOOTER START -->
-<div class="footer">
-    <div class="contain">
-        <div class="col">
+<div class="sd-background">
+    <div class="center padding-top social-links">
+        <ul class="social-icons icon-circle list-inline">
+            <li> <a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+    </div>
+
+    <div class="footer-links center">
+        <div class="center">
             <?php wp_nav_menu( array( 'theme_location' => 'footer-column-1' ) ); ?>
         </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-2' ) ); ?>
-        </div>
-        <div class="col">
-            <?php wp_nav_menu( array( 'theme_location' => 'footer-column-3' ) ); ?>
-        </div>
-        <div class="clearfix"></div>
+    </div>
+
+    <hr>
+
+    <p class = "center dark-color-invert footer-text uppercase">Foothills Church exists to develop mature disciples of Christ in relational environments</p>
     </div>
 </div>
 <!-- END OF FOOTER -->
