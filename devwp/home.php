@@ -7,7 +7,7 @@
  *
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Bearden
  * @since 1.0.0
  */
 
