@@ -1,0 +1,31 @@
+/**
+ * Colors
+ * =================================
+ * - Text Colors
+ *
+ *
+ *
+ *
+ *
+ * Background colors are handled in backgrounds.scss
+ */
+
+//*********************************************
+//*************** TEXT COLORS *****************
+//*********************************************
+
+.primary-invert {
+  color: $background;
+}
+
+.background-invert {
+  color: $primary;
+}
+
+.text-color {
+  color: $primary;
+}
+
+.main-header {
+  color: $primary;
+}
