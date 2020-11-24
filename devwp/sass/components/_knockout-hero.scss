@@ -1,0 +1,39 @@
+/**
+ * Knockout Text
+ * =================================
+ * - Homepage Header
+ *
+ *
+ *
+ *
+ */
+
+.backdrop {
+  background: url("http://foothills-bearden.local/wp-content/uploads/2020/11/Knoxville-high-contrast.jpg") center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  width: 100vw;
+  height: 70vh;
+}
+
+.text {
+  font-family: $main-font;
+  font-size: 10em;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.multiply {
+  color: white;
+  mix-blend-mode: multiply;
+  background-color: rgba(35, 64, 88, 1);
+  height: 70vh;
+}
+
+.knockout-title {
+  color: white;
+
+}
