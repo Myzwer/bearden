@@ -1,23 +1,31 @@
 /**
- * Header
+ * Navbar
  * =================================
- * The hope is to use this and edit as necessary because editing headers suck.
+ *
  *
  *
  */
 
 
 //*********************************************
-//***************** HEADER ********************
+//***************** Navbar ********************
 //*********************************************
 
 .topnav {
   overflow: hidden;
-
+  background-color: $saltydog;
   // To remove sticky feature delete the code after this point
-  position: fixed;
-  width: 100%;
-  z-index: 3;
+}
+
+@media screen and (min-width: 830px) {
+  .topnav {
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: -70px;
+  }
+
+  #menu-main-menu {
+    z-index: 14;
+  }
 }
 
 
@@ -143,7 +151,7 @@
 
 @media screen and (max-width: 830px) {
   .topnav.responsive {
-    position: absolute; // if you want page content to move down with dropdown, set this to relative.
+    // position: absolute; if you want page content to move down with dropdown, set this to relative.
   }
   .topnav.responsive .icon {
     position: absolute;
