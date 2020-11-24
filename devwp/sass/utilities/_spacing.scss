@@ -4,7 +4,7 @@
  * - Both
  * - Padding
  * - Margin
- *
+ * - Inanely specific tweaks
  *
  *
  *
@@ -37,6 +37,7 @@
 .padding-bottom {
   padding-bottom: 30px;
 }
+
 .add-padding {
   padding: 20px;
 }
@@ -48,6 +49,14 @@
 
 .padding-bottom-xl {
   padding-bottom: 60px;
+}
+
+.no-top-padding {
+  padding-top: 0px;
+}
+
+.no-bot-padding {
+  padding-bottom: 0px;
 }
 
 
@@ -74,3 +83,12 @@
   margin-right: 30px;
 }
 
+.massive-margin-bot {
+  margin-bottom: 170px;
+}
+
+// Inanely specific tweaks
+// these are fixing the spacing on the icons on the homepage since they aren't all the same width
+.ico-padding-1 {
+  padding-left: 3px;
+}

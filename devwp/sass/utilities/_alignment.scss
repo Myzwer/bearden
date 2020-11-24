@@ -33,6 +33,10 @@
   position: relative;
 }
 
+.inline {
+  display: inline;
+}
+
 
 .bottom-align {
   position: absolute;
@@ -69,6 +73,13 @@
 
 .right {
   text-align: right;
+}
+
+@media screen and (min-width: 40em) {
+  .center-desktop {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 
