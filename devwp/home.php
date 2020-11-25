@@ -14,78 +14,61 @@
 get_header(); ?>
 
     <div class="grid-container full-width">
-        <div class="grid-x grid-padding-x full-background" style = "background: url(https://images.unsplash.com/photo-1501612780327-45045538702b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);  background-position: center center;">
+        <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+                    ),url(http://foothills-bearden.local/wp-content/uploads/2020/11/Events-Header.jpg);
+                    background-position: center center;
+                    background-size: cover;">
             <div class="large-12 cell">
                 <div class="content-middle">
-                    <h1 class = "center" >One Awesome Title</h1>
-                    <button class="btn btn-v1 center">Button 4</button>
+                    <h1 class = "center" >Events</h1>
+                    <h4 class = "dark-color-invert center">Bearden Exclusive Events.</h4>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-            <?php
-            if ( have_posts() ) :
-            while ( have_posts() ) : the_post();
-            echo "<div class='small-12 large-6 cell'>";
-            ?>
-
-            <div class = 'blog-card'>
-                <a href = "<?php the_permalink(); ?>">
-
-
-                    <?php
-                    echo "<div class = 'card-thumbnail'>";
-                    the_post_thumbnail();
-                    echo "</div>";
-
-                    echo "<div class='card-cat'>";
-
-                    the_tags('', ', ', '<br />');
-
-                    echo "</div>";
-
-                    echo '<h3><a href="' . get_permalink() . '">' . get_the_title() . '</a></h3>';
-
-                    the_excerpt( '<p class = "blog-excerpt">', '</p>' );
-
-
-                    echo "<div class = 'card-details'>";
-
-                    echo "<span class='card-name'>";
-                    the_author();
-                    echo "</span>";
-                    echo " | ";
-
-                    echo "<span class='card-date'>";
-                    echo get_the_date();
-                    echo "</span>";
-
-
-                    echo "</a>";
-                    echo "</div>";
-                    echo "</div>";
-                    echo "</div>";
-                    endwhile;
-                    else:
-                        _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
-                    endif;
-                    ?>
+    <div class="full-width main-background">
+        <div class = "grid-container">
+            <div class="grid-x grid-padding-x padding-outer">
+                <div class="small-12 cell">
+                    <h1 class = "add-padding center light-color-invert">Find Events</h1>
+                </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
     </div>
+
+    <div class="full-width main-background">
+        <div class = "grid-container">
+            <div class="grid-x grid-padding-x padding-outer">
+                <div class="small-12 medium-6 cell">
+                    <div class="event-card">
+                        <div class="event-card-upper">
+                            <img src="http://foothills-bearden.local/wp-content/uploads/2020/11/Bearden-About-Us.jpg" alt="">
+                            <div class="event-times">
+                                <span class="date">July 3, 2020</span>
+                                <span class="time">7:00pm</span>
+                            </div>
+                        </div>
+                        <h2>Event Name</h2>
+                        <div class="location">
+                            <p>The Lighthouse</p>
+                            <p>42 Wallaby Way</p>
+                            <p>Sydney, Australia</p>
+                        </div>
+
+                        <div class="registration-links btn-group">
+                            <button><a href="#">Register</a></button>
+                            <button><a href="#">More Details</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
