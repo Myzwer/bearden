@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Base structure for commitment is done, but until I get more details from client, there isn't much else I can do.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Added a button to link to the commitment form to the commitment page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/commitment.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/commitment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devwp/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1585629701782" duration="2806000" />
       <workItem from="1586218388070" duration="975000" />
       <workItem from="1600359805432" duration="19852000" />
-      <workItem from="1606152430797" duration="39491000" />
+      <workItem from="1606152430797" duration="40285000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606316622698</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added a button to link to the commitment form to the commitment page.">
+      <created>1606318855834</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606318855834</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +242,8 @@
     <MESSAGE value="Header was (apparently) still broken, so its updated to be fixed....again..." />
     <MESSAGE value="Finished the events blog page, but it isn't dynamic. The main style is done, but it will need to be converted to ACF and WP to make it dynamic." />
     <MESSAGE value="Base structure for commitment is done, but until I get more details from client, there isn't much else I can do." />
-    <option name="LAST_COMMIT_MESSAGE" value="Base structure for commitment is done, but until I get more details from client, there isn't much else I can do." />
+    <MESSAGE value="Added a button to link to the commitment form to the commitment page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a button to link to the commitment form to the commitment page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">

@@ -23,7 +23,7 @@ get_header(); ?>
             <div class="large-12 cell">
                 <div class="content-middle">
                     <h1 class = "center" >Events</h1>
-                    <h4 class = "dark-color-invert center">Bearden Exclusive Events.</h4>
+                    <h4 class = "dark-color-invert center">Bearden Exclusive Events</h4>
                 </div>
             </div>
         </div>
