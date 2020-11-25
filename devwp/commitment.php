@@ -37,6 +37,10 @@ get_header(); ?>
                     <p class = "no-top-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolore dolores error exercitationem illo labore magnam modi non officiis omnis porro, quisquam sapiente sunt tempora vel velit voluptates voluptatum.</p>
                     <p class = "no-top-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolore dolores error exercitationem illo labore magnam modi non officiis omnis porro, quisquam sapiente sunt tempora vel velit voluptates voluptatum.</p>
                     <p class = "no-top-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolore dolores error exercitationem illo labore magnam modi non officiis omnis porro, quisquam sapiente sunt tempora vel velit voluptates voluptatum.</p>
+                    <div class="center add-padding">
+                        <a href="https://foothillschurch.churchcenter.com/people/forms/194633" data-open-in-church-center-modal="true"><div class="button">Learn More</div></a>
+                    </div>
+
                 </div>
             </div>
         </div>

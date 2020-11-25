@@ -16,6 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
     <script src="https://kit.fontawesome.com/aa36ddf53c.js" crossorigin="anonymous"></script>
+    <script src="https://js.churchcenter.com/modal/v1"></script>
 <?php wp_head(); ?>
 </head>
 
