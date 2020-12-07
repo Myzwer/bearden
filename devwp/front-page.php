@@ -56,8 +56,7 @@ get_header(); ?>
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 cell">
                     <h3 class = "no-spacing add-padding no-bot-padding">Why Bearden?</h3>
-                    <p class = "no-top-padding margin-bottom">Why are we starting a second location in Bearden? In short, Jesus commands the church to make disciples everywhere all over the world. This is what is known as the Great Commission from Matthew 28:18-20.
-                        Our goal is to be obedient to the Great Commission right here in the GREATER KNOXVILLE AREA. Here are a few statistics for why we are compelled to fight for Knoxville:</p>
+                    <p class = "no-top-padding margin-bottom">We are excited to launch Foothills Church Bearden in the heart of Knoxville in 2021. Follow along and join the team as we work to make disciples in Maryville, Knoxville, and beyond.</p>
 
                     <div class="stat-line lr-padding">
                         <i class="fas fa-users"></i> <h4 class = "inline"> In 2019, Knoxville made the top 100 most post-Christian cities in America. There are over 19,000 cities in America.</h4>
