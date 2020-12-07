@@ -56,32 +56,27 @@ get_header(); ?>
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 cell">
                     <h3 class = "no-spacing add-padding no-bot-padding">Why Bearden?</h3>
-                    <p class = "no-top-padding margin-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolore dolores error exercitationem illo labore magnam modi non officiis omnis porro, quisquam sapiente sunt tempora vel velit voluptates voluptatum.</p>
+                    <p class = "no-top-padding margin-bottom">Why are we starting a second location in Bearden? In short, Jesus commands the church to make disciples everywhere all over the world. This is what is known as the Great Commission from Matthew 28:18-20.
+                        Our goal is to be obedient to the Great Commission right here in the GREATER KNOXVILLE AREA. Here are a few statistics for why we are compelled to fight for Knoxville:</p>
 
                     <div class="stat-line lr-padding">
-                        <i class="fas fa-users"></i> <h4 class = "inline"><span class="stat-number">83%</span> of people in Knoxville are unchurched.</h4>
+                        <i class="fas fa-users"></i> <h4 class = "inline"> In 2019, Knoxville made the top 100 most post-Christian cities in America. There are over 19,000 cities in America.</h4>
                     </div>
 
-                    <hr class="show-for-mobile">
+                    <hr >
 
                     <div class="stat-line lr-padding">
-                        <i class="fas fa-church"></i> <h4 class = "inline"><span class="stat-number">23%</span> of people in Knoxville are not Christian.</h4>
+                        <i class="fas fa-church"></i> <h4 class = "inline"><span class="stat-number">33%</span> of Knoxville is unchurched. That is up from 29% in 2015. WE ARE GETTING MORE AND MORE POST CHRISTIAN EVERY YEAR!</h4>
                     </div>
 
-                    <hr class="show-for-mobile">
+                    <hr>
 
                     <div class="stat-line lr-padding">
-                        <i class="far fa-arrow-alt-circle-right ico-padding-1"></i> <h4 class = "inline"><span class="stat-number">41%</span> of people in Knoxville don't like Chic-fil-a.</h4>
-                    </div>
-
-                    <hr class="show-for-mobile">
-
-                    <div class="stat-line lr-padding">
-                        <i class="fas fa-cross ico-padding-1"></i> <h4 class = "inline"><span class="stat-number">67%</span> of people in Knoxville are UT fans.</h4>
+                        <i class="far fa-arrow-alt-circle-right ico-padding-1"></i> <h4 class = "inline">There are over 1.1 million people in the great Knoxville area. That is over 350,000 people who are unchurched.</h4>
                     </div>
 
                     <div class="center add-padding">
-                        <a href="#"><div class="button">Learn More</div></a>
+                        <a href="/vision"><div class="button">Learn More</div></a>
                     </div>
                 </div>
             </div>
@@ -98,17 +93,18 @@ get_header(); ?>
                 </div>
                 <div class="small-12 medium-6 cell">
                     <h4 class = "no-spacing add-padding no-bot-padding center-desktop dark-color-invert">Give to the Vision</h4>
-                    <p class = "no-top-padding margin-bottom dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolore dolores error exercitationem illo labore magnam modi non officiis omnis porro, quisquam sapiente sunt tempora vel velit voluptates voluptatum.</p>
+                    <p class = "no-top-padding margin-bottom dark-color-invert height-lock">We trust that the Lord is going to do an amazing work through the Bearden location of Foothills Church. If you want to take part in what He is doing here, then we ask that you would consider giving to the vision of multiplying our location.
+                    </p>
                     <div class="center add-padding">
-                        <a href="#"><div class="button">Fuel The Vision</div></a>
+                        <a href="https://foothillschurch.com/give/"><div class="button">Fuel The Vision</div></a>
                     </div>
                 </div>
 
                 <div class="small-12 medium-6 cell">
                     <h4 class = "no-spacing add-padding no-bot-padding center-desktop dark-color-invert">Commit to the Vision</h4>
-                    <p class = "no-top-padding margin-bottom dark-color-invert">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At beatae dolore dolores error exercitationem illo labore magnam modi non officiis omnis porro, quisquam sapiente sunt tempora vel velit voluptates voluptatum.</p>
+                    <p class = "no-top-padding margin-bottom dark-color-invert height-lock">If you want to take the next step of committing to being a part of what God is doing at the Bearden location of Foothills Church, then we ask that you would click the button below.</p>
                     <div class="center add-padding">
-                        <a href="#"><div class="button">Sign the Commitment</div></a>
+                        <a href="/commitment"><div class="button">Sign the Commitment</div></a>
                     </div>
                 </div>
             </div>
