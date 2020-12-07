@@ -41,7 +41,7 @@ get_header(); ?>
                         Our goal is to be obedient to the Great Commission right here in the GREATER KNOXVILLE AREA. Here are a few statistics for why we are compelled to fight for Knoxville:</p>
 
                     <div class="stat-line lr-padding">
-                        <i class="fas fa-users"></i> <h4 class = "inline"> In 2019, Knoxville made the top 100 most post-Christian cities in America. There are over 19,000 cities in America.</h4>
+                        <i class="fas fa-cross ico-padding-1"></i> <h4 class = "inline"> In 2019, Knoxville made the top 100 most post-Christian cities in America. There are over 19,000 cities in America.</h4>
                     </div>
 
                     <hr >
@@ -53,13 +53,13 @@ get_header(); ?>
                     <hr>
 
                     <div class="stat-line lr-padding">
-                        <i class="far fa-arrow-alt-circle-right ico-padding-1"></i> <h4 class = "inline">There are over 1.1 million people in the great Knoxville area. That is over 350,000 people who are unchurched.</h4>
+                        <i class="fas fa-users"></i> <h4 class = "inline">There are over 1.1 million people in the great Knoxville area. That is over 350,000 people who are unchurched.</h4>
                     </div>
 
                     <hr>
 
                     <div class="stat-line lr-padding padding-bottom">
-                        <i class="far fa-arrow-alt-circle-right ico-padding-1"></i> <h4 class = "inline">A 2018 study reports that 1 out 4 residents in Knoxville live below the poverty line.</h4>
+                        <i class="fas fa-arrow-circle-down ico-padding-1"></i> <h4 class = "inline">A 2018 study reports that 1 out 4 residents in Knoxville live below the poverty line.</h4>
                     </div>
                 </div>
             </div>

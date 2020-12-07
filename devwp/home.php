@@ -47,7 +47,7 @@ get_header(); ?>
                         <div class="event-card-upper">
                             <img src="http://foothills-bearden.local/wp-content/uploads/2020/11/Bearden-About-Us.jpg" alt="">
                             <div class="event-times">
-                                <span class="date">July 3, 2020</span>
+                                <span class="date">January 24 - February 28</span>
                                 <span class="time">7:00pm</span>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ get_header(); ?>
                         </div>
 
                         <div class="registration-links btn-group">
-                            <button><a href="#">Register</a></button>
+                            <button><a href="https://foothillschurch.churchcenter.com/registrations/events/653099">Register</a></button>
                             <button><a href="#">More Details</a></button>
                         </div>
                     </div>

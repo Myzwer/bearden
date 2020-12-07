@@ -59,19 +59,19 @@ get_header(); ?>
                     <p class = "no-top-padding margin-bottom">We are excited to launch Foothills Church Bearden in the heart of Knoxville in 2021. Follow along and join the team as we work to make disciples in Maryville, Knoxville, and beyond.</p>
 
                     <div class="stat-line lr-padding">
-                        <i class="fas fa-users"></i> <h4 class = "inline"> In 2019, Knoxville made the top 100 most post-Christian cities in America. There are over 19,000 cities in America.</h4>
+                        <i class="fas fa-cross ico-padding-1"></i> <h4 class = "inline"> In 2019, Knoxville made the top 100 most post-Christian cities in America.</h4>
                     </div>
 
                     <hr >
 
                     <div class="stat-line lr-padding">
-                        <i class="fas fa-church"></i> <h4 class = "inline"><span class="stat-number">33%</span> of Knoxville is unchurched. That is up from 29% in 2015. WE ARE GETTING MORE AND MORE POST CHRISTIAN EVERY YEAR!</h4>
+                        <i class="fas fa-church"></i> <h4 class = "inline"><span class="stat-number">33%</span> of Knoxville is unchurched.</h4>
                     </div>
 
                     <hr>
 
                     <div class="stat-line lr-padding">
-                        <i class="far fa-arrow-alt-circle-right ico-padding-1"></i> <h4 class = "inline">There are over 1.1 million people in the great Knoxville area. That is over 350,000 people who are unchurched.</h4>
+                        <i class="fas fa-users"></i> <h4 class = "inline">There are over 1.1 million people in the great Knoxville area. That is over 350,000 people who are unchurched.</h4>
                     </div>
 
                     <div class="center add-padding">

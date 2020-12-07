@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the copy on the homepage for the client to see before it gets converted over to ACF.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated more copy on a the homepage and the vision page.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/utilities/_spacing.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +101,7 @@
       <workItem from="1600359805432" duration="19852000" />
       <workItem from="1606152430797" duration="40606000" />
       <workItem from="1606746896389" duration="268000" />
-      <workItem from="1607361118593" duration="2268000" />
+      <workItem from="1607361118593" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -226,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607363325046</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Updated more copy on a the homepage and the vision page.">
+      <created>1607364241822</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607364241822</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,17 +272,18 @@
     <MESSAGE value="Added a button to link to the commitment form to the commitment page." />
     <MESSAGE value="Minor header tweaks." />
     <MESSAGE value="Updated the copy on the homepage for the client to see before it gets converted over to ACF." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the copy on the homepage for the client to see before it gets converted over to ACF." />
+    <MESSAGE value="Updated more copy on a the homepage and the vision page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated more copy on a the homepage and the vision page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600370564002" />
-    <state x="712" y="483" key="NewPhpFileDialog" timestamp="1606314499143">
+    <state x="712" y="483" key="NewPhpFileDialog" timestamp="1607365694376">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="712" y="483" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1606314499143" />
+    <state x="712" y="483" key="NewPhpFileDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1607365694376" />
     <state x="544" y="262" key="RollbackChangesDialog" timestamp="1606249953249">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
