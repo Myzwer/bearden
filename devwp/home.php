@@ -39,34 +39,51 @@ get_header(); ?>
         </div>
     </div>
 
+    <?php
+    if (have_posts()) :
+    while (have_posts()) : the_post();
+    ?>
+
     <div class="full-width main-background">
         <div class = "grid-container">
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 medium-6 cell">
                     <div class="event-card">
                         <div class="event-card-upper">
-                            <img src="http://foothills-bearden.local/wp-content/uploads/2020/11/Bearden-About-Us.jpg" alt="">
+                            <img src="http://foothills-bearden.local/wp-content/uploads/2020/12/Bearden-Bible-Study.jpg" alt="">
                             <div class="event-times">
-                                <span class="date">January 24 - February 28</span>
-                                <span class="time">7:00pm</span>
+                                <span class="date">January 24</span>
+                                <span class="time">5:00pm</span>
                             </div>
                         </div>
-                        <h2>Event Name</h2>
+                        <h2>Bearden Bible Study</h2>
                         <div class="location">
-                            <p>The Lighthouse</p>
-                            <p>42 Wallaby Way</p>
-                            <p>Sydney, Australia</p>
+                            <p>Hilton Garden Inn</p>
+                            <p>6200 Papermill Dr NW</p>
+                            <p>Knoxville, TN 37919</p>
                         </div>
 
-                        <div class="registration-links btn-group">
-                            <button><a href="https://foothillschurch.churchcenter.com/registrations/events/653099">Register</a></button>
-                            <button><a href="#">More Details</a></button>
-                        </div>
+                        <?php
+                        echo '<div class="registration-links btn-group">';
+                            echo '<button><a href="https://foothillschurch.churchcenter.com/registrations/events/653099">Register</a></button>';
+                            echo '<button>';
+                        echo '<a href="' . get_permalink() . '"> More Info</a>';
+                            echo '</button>';
+                        echo '</div>';
+                        ?>
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <?php
+    endwhile;
+    else:
+    _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+    endif;
+    ?>
 
 
 
