@@ -102,7 +102,7 @@
   border-bottom-right-radius: 20px;
 }
 
-.btn-group button:not(:last-child) {
+.btn-group .blue-button {
   background-color: $blue;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 0px;

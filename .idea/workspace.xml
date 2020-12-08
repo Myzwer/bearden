@@ -19,11 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated more copy on all the pages.">
+    <list default="true" id="053c30ea-41d6-43a4-9236-366eb4cc3d4d" name="Default Changelist" comment="Updated the posts page to have a dynamic link, though it needs way more work done at a later date. Also cleared out the single post page to start fresh on it.">
+      <change afterPath="$PROJECT_DIR$/devwp/sass/components/_event-dash-buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/dist/css/maps/main.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_backgrounds.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/components/_event-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/components/_event-card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devwp/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devwp/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/devwp/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +105,7 @@
       <workItem from="1600359805432" duration="19852000" />
       <workItem from="1606152430797" duration="40606000" />
       <workItem from="1606746896389" duration="268000" />
-      <workItem from="1607361118593" duration="5480000" />
+      <workItem from="1607361118593" duration="13004000" />
     </task>
     <task id="LOCAL-00001" summary="Updated a lot of the SASS to include some classes that I use in a lot of designs.">
       <created>1600362248990</created>
@@ -242,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607366255634</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Updated the posts page to have a dynamic link, though it needs way more work done at a later date. Also cleared out the single post page to start fresh on it.">
+      <created>1607367653822</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607367653822</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +292,8 @@
     <MESSAGE value="Updated the copy on the homepage for the client to see before it gets converted over to ACF." />
     <MESSAGE value="Updated more copy on a the homepage and the vision page." />
     <MESSAGE value="Updated more copy on all the pages." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated more copy on all the pages." />
+    <MESSAGE value="Updated the posts page to have a dynamic link, though it needs way more work done at a later date. Also cleared out the single post page to start fresh on it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the posts page to have a dynamic link, though it needs way more work done at a later date. Also cleared out the single post page to start fresh on it." />
   </component>
   <component name="WindowStateProjectService">
     <state x="626" y="307" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600370564002">
