@@ -79,53 +79,72 @@ $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
     <div class="full-width main-background padding-bottom">
         <div class="grid-x grid-padding-x grid-margin-x">
             <div class="small-12 medium-6 large-4 add-padding center">
-                <img class = "box-shadow rounded" src="http://foothills-bearden.local/wp-content/uploads/2020/12/Bearden-Bible-Study-Logo.png" alt="Promotional Stock Photo">
+                <img class="box-shadow rounded" src="<?php the_field("event_branding"); ?>"
+                     alt="Promotional Stock Photo">
             </div>
             <div class="small-12 medium-6 large-8 cell">
-                <h1 class="light-color-invert">Details</h1>
-                <p class="no-spacing tb-padding">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consectetur
-                    consequuntur deserunt dolore doloremque eum, excepturi, illo laudantium libero optio qui suscipit
-                    tempora. Expedita id iusto nihil placeat repellendus sed.</p>
+                <h1 class="light-color-invert"><?php the_field("details_header"); ?></h1>
+                <p class="no-spacing tb-padding"><?php the_field("details_paragraph"); ?></p>
                 <div class="padding-top">
-                    <a href="#"><div class="button">Register 1</div></a>
-                    <a href="#"><div class="button">Register 2</div></a>
+
+                    <?php if (have_rows('button_1')): ?>
+                        <?php while (have_rows('button_1')): the_row(); ?>
+                            <?php if (get_sub_field('button_link')): ?>
+                                <a href="<?php the_sub_field('button_link'); ?>">
+                                    <div class="button"><?php the_sub_field('button_text'); ?></div>
+                                </a>
+                            <?php endif; ?>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+
+                    <?php if (have_rows('button_2')): ?>
+                        <?php while (have_rows('button_2')): the_row(); ?>
+                            <?php if (get_sub_field('button_link')): ?>
+                                <a href="<?php the_sub_field('button_link'); ?>">
+                                    <div class="button"><?php the_sub_field('button_text'); ?></div>
+                                </a>
+                            <?php endif; ?>
+                        <?php endwhile; ?>
+                    <?php endif; ?>
+
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="full-width inverted-background">
-        <div class="grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12">
-                    <h3 class="no-spacing add-padding no-bot-padding center dark-color-invert">Secondary Section</h3>
-                </div>
-                <div class="small-12 cell">
-                    <h4 class="no-spacing add-padding no-bot-padding dark-color-invert left">Here's more info that's
-                        different!</h4>
-                    <p class="no-top-padding margin-bottom dark-color-invert">Over the next year, we will work to build
-                        a launch team in the Knoxville area that will work together to launch Foothills Church Bearden.
-                        If you want to take the next step of committing to being a part of what God is doing at the
-                        Bearden location of Foothills Church, then we ask that you would click the button below. There
-                        you can commit to attend Basecamp and become a partner at FC, join a small group in Knoxville,
-                        attend launch team events throughout 2021, and use your time, talents, and resources to help
-                        launch FC Bearden in the fall of 2021.</p>
-                    <div class="center add-padding">
-                        <a href="#">
-                            <div class="button">Second CTA</div>
-                        </a>
+    <?php if( get_field('secondary_title') ): ?>
+        <div class="full-width inverted-background">
+            <div class="grid-container">
+                <div class="grid-x grid-padding-x padding-outer">
+                    <div class="small-12">
+                        <h3 class="no-spacing add-padding no-bot-padding center dark-color-invert"><?php the_field( "secondary_title"); ?></h3>
+                    </div>
+                    <div class="small-12 cell">
+                        <h4 class="no-spacing add-padding no-bot-padding dark-color-invert left"><?php the_field( "secondary_subheading"); ?></h4>
+                        <p class="no-top-padding margin-bottom dark-color-invert"><?php the_field( "secondary_copy"); ?></p>
+                        <div class="center add-padding">
+                            <?php if (have_rows('button_3')): ?>
+                                <?php while (have_rows('button_3')): the_row(); ?>
+                                    <?php if (get_sub_field('button_link')): ?>
+                                        <a href="<?php the_sub_field('button_link'); ?>">
+                                            <div class="button"><?php the_sub_field('button_text'); ?></div>
+                                        </a>
+                                    <?php endif; ?>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    <?php endif; ?>
 
 
     <div class="full-width main-background padding-bottom">
         <div class = "add-medium-padding">
             <div class="grid-x grid-padding-x grid-margin-x">
                 <div class="small-12 center cell">
-                    <h1 class = "light-color-invert add-padding">FAQ</h1>
+                    <h1 class = "light-color-invert add-padding"><?php the_field( "faq_title"); ?></h1>
                 </div>
 
                 <div class="small-12 medium-6 large-12 cell">
