@@ -29,21 +29,33 @@
   width: 100%;
   position: relative;
   margin: 0;
-  padding: 3px 10px 0 48px;
+  padding: 3px 10px 0 28px;
   display: block;
   cursor: pointer;
+}
+
+@media screen and (min-width: 40em) {
+  .panel-title {
+    padding: 3px 10px 0 48px;
+  }
 }
 
 .panel-content {
   font-size: 20px;
   padding: 0px 14px;
-  margin: 0 40px;
+  margin: 0 5px 0 18px;
   height: 0;
   overflow: hidden;
   z-index: 0;
   position: relative;
   opacity: 0;
   transition: .4s ease;
+}
+
+@media screen and (min-width: 40em) {
+  .panel-content {
+    margin: 0 5px 0 48px;
+  }
 }
 
 .panel:checked ~ .panel-content{
@@ -54,13 +66,19 @@
 
 .plus {
   position: absolute;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-top: 4px;
   z-index: 5;
   font-size: 42px;
   line-height: 100%;
   user-select: none;
   transition: .2s ease;
+}
+
+@media screen and (min-width: 40em) {
+  .plus {
+    margin-left: 10px;
+  }
 }
 
 .panel:checked ~ .plus {
