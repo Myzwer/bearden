@@ -17,7 +17,7 @@ get_header(); ?>
         <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
                     rgba(0, 0, 0, 0.5),
                     rgba(0, 0, 0, 0.5)
-                    ),url(http://foothills-bearden.local/wp-content/uploads/2020/11/Events-Header.jpg);
+                    ),url(http://beardentemp.flywheelstaging.com/wp-content/uploads/2020/11/Events-Header.jpg);
                     background-position: center center;
                     background-size: cover;">
             <div class="large-12 cell">
