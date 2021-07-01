@@ -45,7 +45,7 @@ get_header(); ?>
         <div class = "grid-container">
             <div class="grid-x grid-padding-x padding-outer">
                 <div class="small-12 center cell">
-                    <h3 class = "add-padding dark-color-invert">Jesus said Go so we Go.</h3>
+                    <h3 class = "add-padding dark-color-invert">We Can't Stay Here.</h3>
                 </div>
             </div>
         </div>
