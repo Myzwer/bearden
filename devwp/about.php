@@ -74,9 +74,9 @@ get_header(); ?>
                 </div>
                 <div class="small-12 cell">
                     <h4 class = "no-spacing add-padding no-bot-padding dark-color-invert left">Commit to the Vision</h4>
-                    <p class = "no-top-padding margin-bottom dark-color-invert">Over the next year, we will work to build a launch team in the Knoxville area that will work together to launch Foothills Church Bearden. If you want to take the next step of committing to being a part of what God is doing at the Bearden location of Foothills Church, then we ask that you would click the button below. There you can commit to attend Basecamp and become a partner at FC, join a small group in Knoxville, attend launch team events throughout 2021, and use your time, talents, and resources to help launch FC Bearden in the fall of 2021.</p>
+                    <p class = "no-top-padding margin-bottom dark-color-invert">Over the upcoming months, we will work to build a launch team in the Knoxville area that will work together to launch Foothills Church Bearden. If you want to take the next step of committing to being a part of what God is doing at the Bearden location of Foothills Church, then we ask that you would click the button below. There you can commit to attend Basecamp and become a partner at FC, join a small group in Knoxville, attend launch team events throughout 2021, and use your time, talents, and resources to help launch FC Bearden in the fall of 2021.</p>
                     <div class="center add-padding">
-                        <a href="/commitment"><div class="button">Sign the Commitment</div></a>
+                        <a href="https://foothillschurch.churchcenter.com/people/forms/195108"><div class="button">Join the Launch Team</div></a>
                     </div>
                 </div>
             </div>
