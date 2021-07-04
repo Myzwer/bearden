@@ -31,7 +31,7 @@ get_header(); ?>
     </div>
 
     <div class="full-width show-for-desktop">
-        <div class="backdrop">
+        <div style = "  background: url(<?php the_field('header_image'); ?>) center;" class="backdrop">
             <p class="text multiply relative">
                 <span class="content-middle">Bearden</span>
             </p>
