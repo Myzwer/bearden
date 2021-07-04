@@ -93,7 +93,7 @@ function javascript() {
 function watch() {
     browserSync.init({
         open:'external',
-        proxy: 'foothills-bearden.local', //switch this to whatever local generates
+        proxy: 'https://foothills-bearden.local', //switch this to whatever local generates
         port: 3000
     });
 
