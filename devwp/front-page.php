@@ -36,20 +36,11 @@ get_header(); ?>
                 <span class="content-middle">Bearden</span>
             </p>
             <div class="content-middle">
-                <h4 class = "knockout-title">One Church. Two Locations.</h4>
+                <h3 class = "knockout-title">One Church. Two Locations.</h3>
             </div>
         </div>
     </div>
 
-    <div class="full-width sd-background">
-        <div class = "grid-container">
-            <div class="grid-x grid-padding-x padding-outer">
-                <div class="small-12 center cell">
-                    <h3 class = "add-padding dark-color-invert">We Can't Stay Here.</h3>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="full-width main-background">
         <div class = "grid-container">

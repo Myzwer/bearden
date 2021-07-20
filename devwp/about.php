@@ -24,8 +24,7 @@ get_header(); ?>
             <div class="large-12 cell">
                 <div class="content-middle">
                     <h1 class = "center" >The Vision</h1>
-                    <h4 class = "dark-color-invert center">One Church.</h4>
-                    <h4 class = "dark-color-invert center">Two Locations.</h4>
+                        <h3 class = "knockout-title">One Church. Two Locations.</h3>
                 </div>
             </div>
         </div>
